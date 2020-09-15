@@ -24,8 +24,7 @@ int main(void)
 
     if(res != CURLE_OK)
 
-      fprintf(stderr, "curl_easy_perform() failed: %s
-",
+      fprintf(stderr, "curl_easy_perform() failed: %s",
 
               curl_easy_strerror(res));
 
